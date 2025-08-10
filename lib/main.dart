@@ -1,8 +1,8 @@
+import 'bank_account.dart';
 import 'vehicle.dart';
-
-void main() {
-  //Class ang Vehicle
-  //pag create ug object(MOTOR) or instance(HONDA BLACK)
-  Vehicle motor = Vehicle(brand: 'Honda', color: 'black'); //instanciation
-  motor.showInfo(); //gamit ug dot(.) sa pag access sa method
+void main(){
+  BankAccount acc1 = BankAccount(accountHolder: 'Juan', balance: 1000000);
+  Vehicle motor = Vehicle(brand: 'Honda', color: 'black');
+  acc1.showInfo();
+  motor.showInfo(); 
 }
