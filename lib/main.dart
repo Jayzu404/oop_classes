@@ -1,8 +1,8 @@
-import 'vehicle.dart';
+import 'clothes.dart';
 
 void main() {
-  //Class ang vehicle
-  //pag create ug object(MOTOR) or instance(HONDA BLACK)
-  Vehicle motor = Vehicle(brand: 'Honda', color: 'black'); //instanciation
-  motor.showInfo(); //gamit ug dot(.) sa pag access sa method
+  //Class ang Clothes
+  //pag create ug object(SHIRT) or instance(ZARA BLACK)
+  Clothes shirt = Clothes(brand: 'Zara', color: 'black'); //instanciation
+  shirt.showInfo(); //gamit ug dot(.) sa pag access sa method
 }
