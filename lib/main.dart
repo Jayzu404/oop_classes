@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import 'bank_account.dart';
 import 'vehicle.dart';
 import 'stcs.dart';
@@ -9,7 +8,4 @@ void main(){
   acc1.showInfo();
   motor.showInfo(); 
   stcs1.describe();
-
- 
 }
-  
